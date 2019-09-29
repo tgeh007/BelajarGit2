@@ -1,5 +1,6 @@
 package com.puturestu.belajargit;
 import static com.puturestu.belajargit.Manusia.*;
+import static com.puturestu.belajargit.Kucing.*;
 public class Belajar {
     public static void main(String[] args) {
         int umur;
@@ -17,5 +18,8 @@ public class Belajar {
         System.out.println("Nama: "+bejo.getNama()+"\n" +
                             "Umur: "+bejo.getUmur()+"\n" +
                             "Cita-cita: "+bejo.getJabatan());
+
+        System.out.println("Bambank punya kucing bersuara");
+        bicara();
     }
 }
