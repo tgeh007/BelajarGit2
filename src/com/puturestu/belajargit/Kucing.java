@@ -2,7 +2,7 @@ package com.puturestu.belajargit;
 
 public class Kucing {
 
-    private static void bicara(){
+    public static void bicara(){
         System.out.println("Meoww");
     }
 
